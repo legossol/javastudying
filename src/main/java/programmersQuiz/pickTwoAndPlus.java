@@ -5,28 +5,21 @@
      numbers의 모든 수는 0 이상 100 이하입니다.
       */
 package programmersQuiz;
-class Solution {
-    public int[] solution(int[] numbers) {
-        int[] answer = {};
-        return answer;
+//class Solution {
+//    public int[] solution(int[] numbers) {
+//        int[] answer = {};
+//        return answer;
+//
+//        int MIN;
+//        int arrmax = 100;
+//        int randLength = (int)(Math.random()*100)+2;
+//        numbers = new int[randLength];
+//
+//        for(int i = MIN; i <=numbers.length; i++){
+//            int randNum = (int)(Math.random()*100)+1;
+//            numbers[i] = randNum;
+//            System.out.println(numbers[i]);
+//        }
+//    }
+//}
 
-        int MIN;
-        int arrmax = 100;
-        int randLength = (int)(Math.random()*100)+2;
-        numbers = new int[randLength];
-
-        for(int i = MIN; i <=numbers.length; i++){
-            int randNum = (int)(Math.random()*100)+1;
-            numbers[i] = randNum;
-            System.out.println(numbers[i]);
-        }
-    }
-}
-
-
-public class pickTwoAndPlus {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-
-    }
-}
